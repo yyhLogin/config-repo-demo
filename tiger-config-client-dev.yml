@@ -1,2 +1,11 @@
 info:
   profile: dev
+spring:
+  profiles:
+    active: dev
+  application:
+    name: tiger-config-client
+eureka:
+  client:
+    service-url:
+      default-zone: http://127.0.0.1:8761/eureka/
