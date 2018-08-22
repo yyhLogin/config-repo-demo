@@ -8,9 +8,3 @@ spring:
 #  client:
 #    service-url:
 #      default-zone: http://127.0.0.1:8761/eureka/
-management:
-  endpoints:
-    web:
-      exposure:
-        #不加这个会导致http://localhost:8782/actuator/hystrix.stream出现404
-        include: "*"
